@@ -1,15 +1,15 @@
 //
-//  The_Movie_CatalogTests.swift
-//  The Movie CatalogTests
+//  TheMovieCatalogTests.swift
+//  TheMovieCatalogTests
 //
 //  Created by Andres Rojas on 10/01/20.
 //  Copyright © 2020 Eagle Dev. All rights reserved.
 //
 
 import XCTest
-@testable import The_Movie_Catalog
+@testable import TheMovieCatalog
 
-class The_Movie_CatalogTests: XCTestCase {
+class TheMovieCatalogTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

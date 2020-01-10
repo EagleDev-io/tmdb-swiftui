@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  The Movie Catalog
+//  TheMovieCatalog
 //
 //  Created by Andres Rojas on 10/01/20.
 //  Copyright © 2020 Eagle Dev. All rights reserved.
