@@ -423,10 +423,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TheMovieCatalog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TheMovieCatalog/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 296QZ233WT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TheMovieCatalog/Info.plist;
+				INFOPLIST_FILE = TheMovieCatalog/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,10 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TheMovieCatalog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TheMovieCatalog/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 296QZ233WT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TheMovieCatalog/Info.plist;
+				INFOPLIST_FILE = TheMovieCatalog/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
