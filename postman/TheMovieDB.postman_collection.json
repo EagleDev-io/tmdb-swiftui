@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "3ec06d30-62bc-459f-9c76-903047a26452",
+		"name": "TheMovieDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Popular",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "{{tmdb_key}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/popular/?api_key={{tmdb_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"popular",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{tmdb_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upcoming",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "{{tmdb_key}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/upcoming/?api_key={{tmdb_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"upcoming",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{tmdb_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Now Playing",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "{{tmdb_key}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/now_playing/?api_key={{tmdb_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"now_playing",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{tmdb_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search movie",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "{{tmdb_key}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/search/movie?query=the%20matrix%20rev&api_key={{tmdb_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"search",
+						"movie"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "the%20matrix%20rev"
+						},
+						{
+							"key": "api_key",
+							"value": "{{tmdb_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movie by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "{{tmdb_key}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/605?api_key={{tmdb_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"605"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{tmdb_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
